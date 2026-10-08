@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Online - Sergio Delgado López</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="navbar">
+        <div class="logo">Portfolio online</div>
+        <div class="nav-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#">Descargar CV</a>
+        </div>
+    </nav>
+
+    <!-- SECCIÓN 1: INICIO -->
+    <section id="inicio" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-photo-frame">
+                <img src="Perfil1.jpeg" alt="Foto de perfil">
+            </div>
+            <div class="hero-text">
+                <h1 class="hero-name">SERGIO DELGADO LÓPEZ</h1>
+                <p class="hero-role">GAME DESIGNER AND DEVELOPER</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 2: SOBRE MÍ -->
+    <section id="sobre-mi" class="about-section">
+        <div class="about-box">
+            <h2 class="section-title">SOBRE MÍ</h2>
+            <div class="about-container">
+                <div class="about-content">
+                    <p>Actualmente me encuentro en el último curso del grado de Diseño y Desarrollo de Videojuegos por la Universidad Rey Juan Carlos de Móstoles, y en este espacio podréis encontrar tanto más información sobre mí como de los proyectos en los que me he visto involucrado a lo largo de todos estos años de carrera.</p>
+                    <p>Me gustaría seguir ampliando y puliendo mis conocimientos en las distintas disciplinas que he ido adquiriendo estos años relacionadas con los videojuegos. Aunque me considero de un perfil un tanto más artístico, siendo mi especialidad el game design y el guión, quiero ser perfectamente competente en el resto de campos como bien pueden ser la programación en múltiples lenguajes, el modelado tanto de personajes como de entornos, animaciones tanto 2D como 3D... Es por eso que no le cierro la puerta a ningún proyecto, y por lo que estoy interesado en cualquier oportunidad que se me pueda ofrecer con tal de seguir aprendiendo de otros profesionales de la industria para poder forjar mi propio camino.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 3: HABILIDADES -->
+    <section id="habilidades" class="skills-section">
+        <div class="skills-box">
+            <h2 class="section-title">HABILIDADES</h2>
+            
+            <div class="skill-block">
+                <h3 class="skill-title">Diseño y Arte Digital</h3>
+                <p class="skill-text">
+                    Poseo experiencia en diseño de videojuegos, abarcando tanto game design, como diseño de personajes y niveles y diseño narrativo. También cuento con conocimientos en modelado 3D, animación 2D/3D, elaboración de GDDs y edición de vídeo y audio, lo que me ha permitido durante estos años complementar a mis compañeros con perfiles más técnicos durante el desarrollo de diversos proyectos.
+                </p>
+                <div class="skills-logos">
+                    <img src="Adobe_Photoshop_CC_icon.svg.png" alt="Photoshop">
+                    <img src="audacity.png" alt="Audacity">
+                    <img src="3ds max.png" alt="3ds Max">
+                    <img src="DaVinci_Resolve_Studio.png" alt="DaVinci Resolve">
+                    <img src="SketchUp-Logo.png" alt="SketchUp">
+                    <img src="substance.png" alt="Substance Painter">
+                </div>
+            </div>
+
+            <div class="skill-block">
+                <h3 class="skill-title">Programación</h3>
+                <p class="skill-text">
+                    En cuanto a experiencia en programación, he estado en contacto con diversos lenguajes a lo largo de los distintos cursos, utilizados para labores como creación de sistemas de gameplay, IA, físicas, interfaces, algoritmos y lógica de juego, así también como para la creación y gestión de bases de datos. 
+                </p>
+                <div class="programming-lists">
+                    <div class="programming-box">
+                        <h4>Lenguajes más utilizados</h4>
+                        <ul>
+                            <li>C#</li>
+                            <li>Python</li>
+                            <li>HTML/CSS</li>
+                            <li>Java</li>
+                        </ul>
+                    </div>
+                    <div class="programming-box">
+                        <h4>Lenguajes menos utilizados</h4>
+                        <ul>
+                            <li>C++</li>
+                            <li>Javascript</li>
+                            <li>SQL/SQLITE</li>
+                            <li>MongoDB</li>
+                            <li>Flutter</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skills-logos">
+                    <img src="NetBeans-Logo.wine.png" alt="NetBeans">
+                    <img src="Visual-Studio-Logo-2019.png" alt="Visual Studio">
+                    <img src="VSCode.png" alt="VS Code">
+                    <img src="DB Compass.png" alt="DB Compass">
+                    <img src="pychamr.png" alt="PyCharm">
+                    <img src="unity.png" alt="Unity">
+                    <img src="android studio.png" alt="Android Studio">
+                    <img src="github.png" alt="GitHub">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN 4: PROYECTOS -->
+    <section id="proyectos" class="projects-section">
+        
+        <div class="projects-carousel-wrapper">
+            <button class="carousel-btn prev-btn" id="prevBtn">&#10094;</button>
+            <button class="carousel-btn next-btn" id="nextBtn">&#10095;</button>
+
+            <div class="projects-carousel" id="projectCarousel">
+                
+                <!-- PROYECTO 1: Histeria -->
+                <div class="project-slide projects-box">
+                    <h2 class="section-title">PROYECTOS</h2>
+                    <div class="project-content-layout p-layout-1">
+                        
+                        <!-- Columna Izquierda: Imagen y Enlaces -->
+                        <div class="project-single-media">
+                            <img src="Inicio.png" alt="Captura de Histeria" class="p-img">
+                            
+                            <div class="project-media-links">
+                                <a href="https://www.youtube.com/@Sealy.Studio" target="_blank" class="project-link">Canal de Youtube</a>
+                                <a href="https://sealystudio.itch.io/histeria-fragmentos-de-la-mente" target="_blank" class="project-link">Jugar versión definitiva</a>
+                                <a href="https://linktr.ee/sealy.studio?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnjN4AKR-snmTgcoelp9QNJXICUAmjO1NsoqZSdHLgU6UDTQu5X2fZ0e3VHnw_aem_5MSqwxvaCxc0NOLkXpCXoA" target="_blank" class="project-link">RRSS del Equipo</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Columna Derecha: Cuadros de texto -->
+                        <div class="project-text-container">
+                            <div class="project-text-block text-block-top">
+                                <h3 class="project-subtitle">Histeria</h3>
+                                <p>Siendo el proyecto más grande en el que me he visto involucrado hasta la fecha, Histeria: los Fragmentos de la Mente, se presenta como un roguelike narrativo que busca contar una historia haciendo énfasis en la importancia de la salud mental.</p>
+                            </div>
+                            
+                            <div class="project-text-block text-block-bottom">
+                                <p>Dentro de Sealy Studio, el equipo encargado de dicho proyecto, mi labor fue principalmente la de Game Designer, encargándome del diseño de niveles y mecánicas, y del guión y el sistema de diálogos del juego. También colaboré en la creación del comportamiento de algunos de los enemigos.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- PROYECTO 2: Arkandroid (Vídeo Vertical) -->
+                <div class="project-slide projects-box">
+                    <h2 class="section-title">PROYECTOS</h2>
+                    <div class="project-content-layout p-layout-2">
+                        
+                        <div class="project-single-media">
+                            <video id="gameplayVideo" loop muted playsinline class="p-video">
+                                <source src="Ejemplo web.mp4" type="video/mp4">
+                                Tu navegador no soporta vídeos HTML5.
+                            </video>
+                            
+                            <div class="project-media-links">
+                                <a href="https://camuuss.itch.io/arkandroid" target="_blank" class="project-link">Descargar en Itch.io</a>
+                            </div>
+                        </div>
+                        
+                        <div class="project-text-container">
+                            <div class="project-text-block">
+                                <h3 class="project-subtitle">Arkandroid</h3>
+                                <p>"Arkandroid" es el último proyecto presentado para la asignatura de desarrollo de juegos en aplicaciones móviles. Junto con mis compañeros, quisimos usar la estructura base del clásico "Arkanoid", pero añadiendo mecánicas exclusivas que solamente pueden ser utilizadas en dispositivos móviles o tablets como bien puede ser el uso del giroscopio o el sistema de vibración del dispositivo.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- PROYECTO 3: Galería 3D / Lightbox -->
+                <div class="project-slide projects-box">
+                    <h2 class="section-title">PROYECTOS</h2>
+                    <div class="project-content-layout p-layout-3">
+                        
+                        <div class="project-gallery-container">
+                            <h4 class="gallery-title">Trabajos y Modelados 3D</h4>
+                            <div class="project-gallery-grid">
+                                <img src="Cara.png" alt="Modelado Facial - Rigging" class="gallery-thumb">
+                                <img src="Cuerpo.png" alt="Personaje Completo - T-Pose" class="gallery-thumb">
+                                <img src="Espada.png" alt="Asset de Arma - Modelado 3D" class="gallery-thumb">
+                                <img src="Andar.png" alt="Ciclo de Animación" class="gallery-thumb">
+                                <img src="Espadazo.png" alt="Animación de Ataque" class="gallery-thumb">
+                                <img src="MOCAP.jpg" alt="Captura de Movimiento / Rigging" class="gallery-thumb">
+                                <img src="Huesos.jfif" alt="Estructura Ósea CAT" class="gallery-thumb">
+                                <img src="Animal.png" alt="Modelado Cuadrúpedo" class="gallery-thumb">
+                                <img src="Escenario.jfif" alt="Diseño de Entorno 3D" class="gallery-thumb">
+                            </div>
+                            <p class="gallery-hint">💡 Haz clic en cualquier imagen para ampliarla</p>
+                        </div>
+                        
+                        <div class="project-text-container">
+                            <div class="project-text-block">
+                                <h3 class="project-subtitle">Arte 3D & Animación</h3>
+                                <p>En esta sección reúno diferentes trabajos de modelado tridimensional, esculpido de personajes y diseño de entornos desarrollados para diversos proyectos académicos y personales.</p>
+                                <p>He trabajado con software como 3ds Max y Substance Painter para el flujo completo de producción: desde la creación de la malla base y retopología, hasta el texturizado PBR, riggeado y animación final de los assets.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECCIÓN 5: BANNER DE CONTACTO (PIE DE PÁGINA) -->
+    <footer id="contacto" class="contact-banner-section">
+        <div class="contact-banner-content">
+            
+            <div class="contact-header">
+                <h2 class="contact-banner-title">¿HABLAMOS?</h2>
+                <p class="contact-banner-subtitle">Estoy disponible para prácticas universitarias, proyectos de desarrollo y ofertas laborales.</p>
+            </div>
+
+            <div class="contact-cards-container">
+                
+                <!-- Teléfono -->
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h4>Teléfono</h4>
+                    <a href="tel:+34611418940">+34 611 41 89 40</a>
+                </div>
+
+                <!-- Correo Electrónico -->
+                <div class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h4>Correo Electrónico</h4>
+                    <a href="mailto:sergio.delgado.lopez.2003@gmail.com">sergio.delgado.lopez.2003@gmail.com</a>
+                </div>
+
+                <!-- Instagram -->
+                <div class="contact-card">
+                    <div class="contact-icon">📷</div>
+                    <h4>Instagram</h4>
+                    <a href="https://www.instagram.com/seergiio_03/" target="_blank">@seergiio_03</a>
+                </div>
+
+                <!-- LinkedIn / GitHub / Red Adicional -->
+                <div class="contact-card">
+                    <div class="contact-icon">💼</div>
+                    <h4>LinkedIn</h4>
+                    <a href="https://www.linkedin.com/in/sergio-delgado-6b2531356/?skipRedirect=true" target="_blank">Sergio Delgado López</a>
+                </div>
+
+            </div>
+
+            <div class="contact-footer-copy">
+                <p>© 2026 Sergio Delgado López. Todos los derechos reservados.</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- VENTANA MODAL EMERGENTE -->
+    <div id="imageModal" class="image-modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="imgExpanded" alt="Imagen ampliada">
+        <div id="modalCaption" class="modal-caption"></div>
+    </div>
+
+    <!-- SCRIPT DE CONTROL UNIFICADO -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // 1. Control del Carrusel de Proyectos
+            const carousel = document.getElementById('projectCarousel');
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+
+            if (nextBtn && prevBtn && carousel) {
+                nextBtn.addEventListener('click', () => {
+                    carousel.scrollBy({ left: carousel.clientWidth, behavior: 'smooth' });
+                });
+
+                prevBtn.addEventListener('click', () => {
+                    carousel.scrollBy({ left: -carousel.clientWidth, behavior: 'smooth' });
+                });
+            }
+
+            // 2. Control Inteligente de Vídeo en Scroll
+            const video = document.getElementById('gameplayVideo');
+            if (video) {
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            video.play().catch(() => {});
+                        } else {
+                            video.pause();
+                        }
+                    });
+                }, { threshold: 0.5 });
+
+                observer.observe(video);
+            }
+
+            // 3. Control de la Ventana Modal (Lightbox)
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('imgExpanded');
+            const captionText = document.getElementById('modalCaption');
+            const closeModal = document.querySelector('.close-modal');
+
+            if (modal) {
+                modal.style.display = 'none'; // Asegura que empiece totalmente oculto
+            }
+
+            document.querySelectorAll('.gallery-thumb').forEach(thumb => {
+                thumb.addEventListener('click', function() {
+                    if (this.src && modal) {
+                        modal.style.display = 'flex';
+                        modalImg.src = this.src;
+                        captionText.innerHTML = this.alt || '';
+                    }
+                });
+            });
+
+            if (closeModal) {
+                closeModal.addEventListener('click', () => {
+                    modal.style.display = 'none';
+                });
+            }
+
+            if (modal) {
+                modal.addEventListener('click', (e) => {
+                    if (e.target === modal) {
+                        modal.style.display = 'none';
+                    }
+                });
+            }
+
+        });
+    </script>
+
+</body>
+</html>
